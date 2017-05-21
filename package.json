@@ -1,0 +1,47 @@
+{
+  "name": "solcalc",
+  "version": "0.0.0",
+  "description": "",
+  "homepage": "",
+  "author": {
+    "name": "yitz",
+    "email": "ybudweiser@gmail.com",
+    "url": ""
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    ""
+  ],
+  "devDependencies": {
+    "coveralls": "^2.12.0",
+    "nsp": "^2.6.3",
+    "eslint": "^3.18.0",
+    "eslint-config-xo-space": "^0.16.0",
+    "jest": "^19.0.2",
+    "jest-cli": "^19.0.1"
+  },
+  "scripts": {
+    "prepublish": "nsp check",
+    "pretest": "eslint . --fix",
+    "test": "jest",
+    "start":"node lib/index.js"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "jest": true,
+      "node": true
+    }
+  },
+  "repository": "ybudweiser@gmail.com/solcalc",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "license": "GPL-3.0",
+  "dependencies": {
+    "moment": "^2.18.1"
+  }
+}
