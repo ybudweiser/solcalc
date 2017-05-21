@@ -16,7 +16,7 @@ solcalc('Rainbow');
 ```
 ## License
 
-GPL-3.0 © [yitz]()
+LGPL-3.0 © [yitz]()
 
 
 [npm-image]: https://badge.fury.io/js/solcalc.svg
