@@ -27,7 +27,7 @@
     "prepublish": "nsp check",
     "pretest": "eslint . --fix",
     "test": "jest",
-    "start":"node lib/index.js"
+    "start": "node lib/index.js"
   },
   "eslintConfig": {
     "extends": "xo-space",
@@ -42,6 +42,7 @@
   },
   "license": "GPL-3.0",
   "dependencies": {
+    "julian-date": "^1.0.1",
     "moment": "^2.18.1"
   }
 }
