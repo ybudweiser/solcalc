@@ -25,7 +25,7 @@
   },
   "scripts": {
     "prepublish": "nsp check",
-    "prefest": "eslint . --fix",
+    "pretest": "eslint . --fix",
     "test": "jest",
     "start": "node lib/index.js"
   },
