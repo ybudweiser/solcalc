@@ -12,8 +12,15 @@ $ npm install --save solcalc
 ```js
 const solcalc = require('solcalc');
 
-solcalc('Rainbow');
+solcalc.getTimes(/*Moment*/ date, /*Number*/ latitude, /*Number*/ longitude)
 ```
+Returns an object with the following properties (each is a `Moment` object):
+
+| Property        | Description                                                              |
+| --------------- | ------------------------------------------------------------------------ |
+| `sunrise`       | sunrise                      |
+| `sunset`    | sunrise ends                |
+| `solarNoon` |          |
 ## License
 
 LGPL-3.0 © [yitz]()
