@@ -1,6 +1,7 @@
 # solcalc [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 > 
-
+## Discription
+solcalc is a JavaScript library for calculating exact sunrise and sunset times for a given location, based on the implementation of the [NOAA Solar Calculator](https://www.esrl.noaa.gov/gmd/grad/solcalc). 
 ## Installation
 
 ```sh
