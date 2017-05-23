@@ -1,7 +1,7 @@
 {
   "name": "solcalc",
-  "version": "0.0.0",
-  "description": "",
+  "version": "1.0.0",
+  "description": "A Javascript module used to calculate sunrise, and sunset based on the NOAA Calculations",
   "homepage": "",
   "author": {
     "name": "yitz weiser",
@@ -13,7 +13,11 @@
   ],
   "main": "lib/index.js",
   "keywords": [
-    ""
+    "sunrise",
+    "sunset",
+    "solar",
+    "calc",
+    "NOAA"
   ],
   "devDependencies": {
     "coveralls": "^2.12.0",
@@ -27,7 +31,7 @@
     "prepublish": "nsp check",
     "pretest": "eslint . --fix",
     "test": "jest",
-    "start": "node lib/index.js"
+    "start": "node bin/index.js"
   },
   "eslintConfig": {
     "extends": "xo-space",
@@ -44,5 +48,8 @@
   "dependencies": {
     "julian-date": "^1.0.1",
     "moment": "^2.18.1"
+  },
+  "bin":{
+    "solcalc": "bin/index.js"
   }
 }
